@@ -4,7 +4,7 @@ const MongoClient = require('mongodb').MongoClient;
 const app = express();
 var path = require("path");
 var fs = require("fs");
-var port = process.env.PORT || 8000;
+var port = process.env.PORT || 3000;
 
 
 app.use(express.json());
