@@ -10,10 +10,14 @@
     "type": "git",
     "url": "git+https://github.com/smarkie/cw2ind"
   },
+  
+  "web": {"node server/server.js"},
+  
   "engines": {
     "node": ">= 6.9.4",
     "npm": ">= 4.4.0"
   },
+  
   "start": "node server.js",
   "author": "Smith",
   "license": "ISC",
