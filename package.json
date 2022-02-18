@@ -1,0 +1,22 @@
+{
+  "name": "server.js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \\\"Error: no test specified\\\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smarkie/cw2ind"
+  },
+  "engines": {
+    "node": ">= 6.9.4",
+    "npm": ">= 4.4.0"
+  },
+  "author": "Smith",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/smarkie/cw2ind"
+  }
+}
