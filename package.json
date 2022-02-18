@@ -14,6 +14,7 @@
     "node": ">= 6.9.4",
     "npm": ">= 4.4.0"
   },
+  "start": "node server.js"
   "author": "Smith",
   "license": "ISC",
   "bugs": {
