@@ -26,7 +26,7 @@ app.get("/", (req, res) => {
 
 //file logger
 app.use(function(req, res, next) {
-    var filePath = path.join(__dirname, "img", req.url);
+    var filePath = path.join(__dirname, "", req.url);
     console.log('Looking for the file at: '+ filePath);
       fs.stat(filePath, function(err, fileInfo) {
         if (err) {
@@ -91,7 +91,6 @@ MongoClient.connect('mongodb+srv://smith:1234@cw2ind.0jm60.mongodb.net/test', (e
 })
 
 // set port, listen for requests
-//const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}.`);
 });
